@@ -1,4 +1,2 @@
-a = 543
-y = int(input())
-b = y-a
-print(b)
+a = int(input())
+print(a-543)
