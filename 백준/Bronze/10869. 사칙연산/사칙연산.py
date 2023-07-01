@@ -1,7 +1,6 @@
-import math
-A,B = map(int,input().split())
-print(A+B)
-print(A-B)
-print(A*B)
-print(A//B)
-print(A%B)
+a,b = map(int,input().split())
+print(a+b)
+print(a-b)
+print(a*b)
+print(int(a/b))
+print(a%b)
