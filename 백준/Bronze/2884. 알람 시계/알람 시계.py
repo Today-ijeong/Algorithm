@@ -1,11 +1,10 @@
-h,m = map(int,input().split())
-
-if m-45 <0 and h!=0:
-    m = 60-(45-m)
-    h=h-1
-elif h==0 and m-45 <0 :
-        h=23
-        m = 60-(45-m)
-elif m-45>=0:
-    m = m-45
-print(h,m)
+a,b = map(int,input().split())
+if b>=45:
+    print(a,b-45)
+elif b<=44 and a!=0:
+    b = 60-abs(b-45)
+    print(a-1, b)
+else:
+    a=23
+    b = 60 - abs(b - 45)
+    print(a,b)
